@@ -445,7 +445,6 @@ namespace SUNTimer
                         {
                             if (!chkFri1st.Checked)
                             {
-                                //TODO: Ring bell
                                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(fullFilePath);
                                 player.Play();
                             }
